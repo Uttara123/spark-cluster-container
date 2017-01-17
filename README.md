@@ -19,7 +19,7 @@ docker-compose.yml
 
 ## build the image
 Dockerfile pulls a centos 7 image, installs jdk and spark and creates a image by the name sparkcluster when you issue the following commands :
-cd <to your working dir>
+cd to your working dir
 export SPARK_HOME=/usr/lib/spark/spark-2.1.0-bin-hadoop2.7  
 export MYIP=10.0.0.6   
 docker build --build-arg SPARK_HOME=/usr/lib/spark/spark-2.1.0-bin-hadoop2.7 --build-arg SPARK_FILE=spark-2.1.0-bin-hadoop2.7.tgz  --build-arg JAVA_FILE=jdk-linux-x64.rpm -t sparkcluster .
