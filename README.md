@@ -39,6 +39,6 @@ docker-compose up
 
 ## Verify that the cluster is setup
 From a browser on your mac , go to the following URL
-http://<you mac ip>:8080
+http://macip:8080
 You should be able tosee one master and 2 worker nodes
 Click on the links to worker nodes and check their status
